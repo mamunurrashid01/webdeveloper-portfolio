@@ -7,11 +7,13 @@ body{
 }
 .header{
     background-color: #FFF8F3;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
     margin-bottom: 0;
+    padding: 0 50px;
 }
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -49,8 +51,8 @@ border: none;
 padding:7px 15px ;
 }
 .banner{
-    margin-left: 85px;
-    max-width: 500px;
+    margin-left: 230px;
+    max-width: 400px;
 }
 .banner-container{
     display: flex;
@@ -90,9 +92,6 @@ color: #FFFFFF;
     line-height: normal;
     margin-top: 0;
     margin-bottom: 0;
-}
-.banner-image img{
-    margin: 0;
 }
 .about{
     border-radius: 10px;
