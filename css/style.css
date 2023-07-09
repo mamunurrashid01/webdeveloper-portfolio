@@ -167,3 +167,50 @@ color: #757575;
 font-size: 12px;
 line-height: 28px;
 }
+.header-sum{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: #181818;
+    margin-bottom: 0;
+}
+.sumary{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 40px;
+}
+.educ{
+    max-width: 50%;
+    margin: auto;
+}
+.sumary-head{
+    color: #474747;
+    font-size: 18px;
+    font-weight: 700;
+}
+.ex-edu{
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #474747;
+}
+.ex-para{
+    font-size: 12px;
+    color: #474747;
+    text-align: justify;
+    
+}
+.btn-sumary{
+    color:  #FFF;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    background-color: #FD6E0A;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+.butt{
+    text-align: center;
+    margin-bottom: 20px;
+}
