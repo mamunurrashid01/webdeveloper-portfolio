@@ -226,6 +226,9 @@ line-height: 28px;
     font-weight: 400;
     padding-left: -20px;
 } 
+.social-media{
+    margin-left: 20px;
+}
 .footer-container{
     display: flex;
     background: #FFF8F3;
