@@ -20,9 +20,7 @@ nav{
 .nav-title{
 color: #181818;
 font-size: 35px;
-font-style: normal;
 font-weight: 800;
-line-height: normal;
 }
 span{
     color: #FD6E0A;
@@ -31,12 +29,9 @@ span{
 li {
 display: inline;
 margin-left: 20px;
-color: var(--dark-02, #474747);
-font-family: Open Sans;
+color: #474747;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 }
 li  a{
     text-decoration: none;
@@ -44,12 +39,9 @@ li  a{
     
 }
 .btn-nav{
-color: var(--white-color, #FFF);
-font-family: Open Sans;
+color:  #FFF;
 font-size: 12px;
-font-style: normal;
 font-weight: 400;
-line-height: normal;
 margin-left: 20px;
 border-radius: 3px;
 background: #FD6E0A;
@@ -117,7 +109,7 @@ text-align: center;
 font-size: 25px;
 font-weight: 700;
 }
-.aboout-info-container{
+.about-info-container{
     justify-content: space-evenly;
     display: flex;
     align-items: center;
