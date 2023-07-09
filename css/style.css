@@ -214,26 +214,45 @@ line-height: 28px;
     text-align: center;
     margin-bottom: 20px;
 }
-.connect-heaer{
+.connect-header, .message-header{
     color: #181818;
     font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
-.connect-para{
+ .connect-para{
     color: #474747;
     font-size: 12px;
     font-weight: 400;
-    line-height: 20px;
-}
-.footer-contaner{
+    padding-left: -20px;
+} 
+.footer-container{
     display: flex;
     background: #FFF8F3;
     justify-content: space-around;
     align-items: center;
     padding: 50px 110px;
 }
-.connect{
-    width: 50%;
+.connect, .message{
+    max-width: 50;
+    margin: auto;
 }
-.social-media{
-
-}
+  input[type="text"], input[type="email"]{
+    border: none;
+    padding: 10px 50px 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    
+  }
+  #areatext{
+    margin-bottom: 16px;
+  }
+  .submit {
+    background: #FD6E0A;
+    color: #FFF8F3;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-style: normal;
+  }
