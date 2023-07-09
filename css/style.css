@@ -214,3 +214,26 @@ line-height: 28px;
     text-align: center;
     margin-bottom: 20px;
 }
+.connect-heaer{
+    color: #181818;
+    font-size: 25px;
+}
+.connect-para{
+    color: #474747;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.footer-contaner{
+    display: flex;
+    background: #FFF8F3;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 110px;
+}
+.connect{
+    width: 50%;
+}
+.social-media{
+
+}
